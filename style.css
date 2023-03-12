@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+.main{
+    margin: 0 auto;
+    padding:3rem;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:conic-gradient(from -90deg at 50% 105%, white, orchid);
+}
+
+.container{
+    padding:2rem;
+    border: 2px solid salmon;
+}
+
+input{
+    width: 20rem;
+    padding: 0.2rem  0.5rem;
+    border-radius:0.5rem ;
+    border:2px solid rgb(139, 139, 157);
+}
+
+.box{
+    margin-top: 2rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 3rem;
+    padding: 0.5rem 3rem ;
+    border-radius: 5px;
+    background-color: rgb(175, 156, 156);
+    border: none;
+    font-weight: bold;
+    color: bisque;
+}
